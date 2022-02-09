@@ -1,0 +1,5 @@
+.message-box {
+  width: fit-content;
+  max-width: 40%;
+  word-break: break-word;
+}

@@ -1,0 +1,10 @@
+<div class="my-4">
+  <%= form_with(model: @message, remote: true, class: "has-addons field" ) do |f| %>
+    <div class="control is-expanded">
+      <%= f.text_field :content, class: "input", autocomplete: 'off' %>
+    </div>
+    <div class="control">
+      <%= f.submit data: { disable_with: false }, class: "button is-info", value: "Send" %>
+    </div>
+  <% end %>
+</div>

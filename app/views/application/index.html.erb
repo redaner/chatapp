@@ -1,0 +1,7 @@
+<div class="container mt-4">
+  <%= turbo_stream_from "messages" %>
+  <div id="messages">
+    <%= render @messages %>
+  </div>
+  <%= render partial: 'layouts/new_message' %>
+</div>
