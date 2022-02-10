@@ -1,7 +1,9 @@
 <div class="container mt-4">
   <%= turbo_stream_from "messages" %>
-  <div id="messages">
-    <%= render @messages %>
+  <div id="messages-container" class="is-flex is-flex-direction-column-reverse">
+    <div id="messages">
+      <%= render @messages %>
+    </div>
   </div>
-  <%= render partial: 'layouts/new_message' %>
+  <%= render partial: 'messages/new_message' %>
 </div>

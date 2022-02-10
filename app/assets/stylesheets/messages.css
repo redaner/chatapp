@@ -3,3 +3,8 @@
   max-width: 40%;
   word-break: break-word;
 }
+
+#messages-container {
+  overflow-y: auto;
+  height: 800px;
+}

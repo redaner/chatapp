@@ -1,5 +1,5 @@
 <div class="my-4">
-  <%= form_with(model: @message, remote: true, class: "has-addons field" ) do |f| %>
+  <%= form_with(model: @message, remote: true, class: "has-addons field", data: { controller: "reset-form", action: "turbo:submit-end->reset-form#reset" }) do |f| %>
     <div class="control is-expanded">
       <%= f.text_field :content, class: "input", autocomplete: 'off' %>
     </div>
