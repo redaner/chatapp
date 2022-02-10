@@ -7,6 +7,9 @@ services:
       - '6380:6379'
   database:
     image: postgres
+    environment:
+      POSTGRES_USER: "root"
+      POSTGRES_PASSWORD: "Pass1234!"
     volumes:
       - ./.docker/volumes/database:/var/lib/postgresql/data
   web:
