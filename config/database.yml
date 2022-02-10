@@ -4,7 +4,8 @@ default: &default
   timeout: 5000
   username: root
   password: Pass1234!
-  port: 5433
+  port: 5432
+  host: database
 
 development:
   <<: *default
