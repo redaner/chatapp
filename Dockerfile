@@ -7,6 +7,7 @@ RUN mkdir /chatapp
 WORKDIR /chatapp
 COPY ./* /chatapp/
 RUN gem install bundler
+RUN bundle config set force_ruby_platform true
 RUN bundle install
 
 EXPOSE 3000
