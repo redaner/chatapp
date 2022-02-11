@@ -5,6 +5,7 @@
 
 * Steps:
 
-- clone the app (git clone https://github.com/redaner/chatapp.git)
+- clone the app: 
+ ``` git clone https://github.com/redaner/chatapp.git ```
 - navigate into chatapp directory
 - to run the app, run docker-compose up
