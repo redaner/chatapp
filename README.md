@@ -7,5 +7,7 @@
 
 - clone the app: 
  ``` git clone https://github.com/redaner/chatapp.git ```
-- navigate into chatapp directory
-- to run the app, run docker-compose up
+- navigate into chatapp directory:
+ ``` cd chatapp ```
+- to run the app, run:
+ ``` docker-compose up ```
