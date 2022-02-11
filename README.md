@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.7.0
+* Rails version: 7.0.1
 
-Things you may want to cover:
+* Steps:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- clone the app (git clone https://github.com/redaner/chatapp.git)
+- navigate into chatapp directory
+- to run the app, run docker-compose up
