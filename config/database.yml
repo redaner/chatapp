@@ -11,6 +11,10 @@ development:
   <<: *default
   database: chatapp
 
+test:
+  <<: *default
+  database: chatapp
+
 production:
   <<: *default
   database: chatapp
