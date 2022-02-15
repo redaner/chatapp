@@ -1,5 +1,7 @@
 # README
 
+Simple public chat app where messages are shared instantly. Users can chat with each other without needing to log in.
+
 * Ruby version: 3.1.0
 * Rails version: 7.0.1 (ActionCable, turbo-rails)
 * UI: Bulma.io
