@@ -1,6 +1,6 @@
 # README
 
-* Ruby version: 2.7.0
+* Ruby version: 3.1.0
 * Rails version: 7.0.1 (ActionCable, turbo-rails)
 * UI: Bulma.io
 * Database: PostgreSQL 14.1
